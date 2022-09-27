@@ -1,0 +1,59 @@
+version: '3.8'
+
+networks:
+  network-karina-fluxo:
+    name: network-karina-fluxo
+
+services:
+  php:
+    image: crmsolucoes/php-fpm-8.0:latest
+    container_name: php
+    restart: unless-stopped
+    volumes: 
+     - ./:/var/www/html
+    networks: 
+     - network-karina-fluxo
+
+  nginx: 
+    image: crmsolucoes/nginx-stable-alpine:latest
+    container_name: nginx
+    restart: unless-stopped
+    depends_on:
+      - php
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/html
+      - ./nginx/log:/var/log/nginx
+      - ./nginx/conf/default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - network-karina-fluxo
+
+  artisan:
+    image: crmsolucoes/php-fpm-8.0:latest
+    container_name: artisan
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: ["php", "artisan"]
+    networks:
+      - network-karina-fluxo
+
+  composer:
+    build: ./docker/composer
+    container_name: composer
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    networks:
+     - network-karina-fluxo
+
+  npm:
+    image: node:7.0.0
+    container_name: npm
+    volumes: 
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: ["npm"]
+    networks:
+      - network-karina-fluxo

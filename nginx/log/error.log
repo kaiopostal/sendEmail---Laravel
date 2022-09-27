@@ -1,0 +1,452 @@
+2022/07/08 08:01:42 [notice] 1#1: using the "epoll" event method
+2022/07/08 08:01:42 [notice] 1#1: nginx/1.20.0
+2022/07/08 08:01:42 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/08 08:01:42 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/08 08:01:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/08 08:01:42 [notice] 1#1: start worker processes
+2022/07/08 08:01:42 [notice] 1#1: start worker process 32
+2022/07/08 08:01:42 [notice] 1#1: start worker process 33
+2022/07/08 08:01:42 [notice] 1#1: start worker process 34
+2022/07/08 08:01:42 [notice] 1#1: start worker process 35
+2022/07/08 14:24:52 [notice] 1#1: using the "epoll" event method
+2022/07/08 14:24:52 [notice] 1#1: nginx/1.20.0
+2022/07/08 14:24:52 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/08 14:24:52 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/08 14:24:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/08 14:24:52 [notice] 1#1: start worker processes
+2022/07/08 14:24:52 [notice] 1#1: start worker process 31
+2022/07/08 14:24:52 [notice] 1#1: start worker process 32
+2022/07/08 14:24:52 [notice] 1#1: start worker process 33
+2022/07/08 14:24:52 [notice] 1#1: start worker process 34
+2022/07/08 14:24:54 [warn] 31#31: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost"
+2022/07/08 14:25:17 [error] 31#31: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use empty array elements in arrays in /var/www/html/domain/Models/CadAppFluxo/DadosRequest.php on line 32" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost"
+2022/07/08 15:32:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/08 15:32:41 [notice] 32#32: gracefully shutting down
+2022/07/08 15:32:41 [notice] 32#32: exiting
+2022/07/08 15:32:41 [notice] 32#32: exit
+2022/07/08 15:32:41 [notice] 33#33: gracefully shutting down
+2022/07/08 15:32:41 [notice] 33#33: exiting
+2022/07/08 15:32:41 [notice] 33#33: exit
+2022/07/08 15:32:41 [notice] 31#31: gracefully shutting down
+2022/07/08 15:32:41 [notice] 31#31: exiting
+2022/07/08 15:32:41 [notice] 31#31: exit
+2022/07/08 15:32:41 [notice] 34#34: gracefully shutting down
+2022/07/08 15:32:41 [notice] 34#34: exiting
+2022/07/08 15:32:41 [notice] 34#34: exit
+2022/07/08 15:32:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/08 15:32:41 [notice] 1#1: worker process 31 exited with code 0
+2022/07/08 15:32:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/08 15:32:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/08 15:32:41 [notice] 1#1: worker process 33 exited with code 0
+2022/07/08 15:32:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/08 15:32:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/08 15:32:41 [notice] 1#1: worker process 32 exited with code 0
+2022/07/08 15:32:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/08 15:32:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/08 15:32:41 [notice] 1#1: worker process 34 exited with code 0
+2022/07/08 15:32:41 [notice] 1#1: exit
+2022/07/11 08:04:47 [notice] 1#1: using the "epoll" event method
+2022/07/11 08:04:47 [notice] 1#1: nginx/1.20.0
+2022/07/11 08:04:47 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/11 08:04:47 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/11 08:04:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/11 08:04:47 [notice] 1#1: start worker processes
+2022/07/11 08:04:47 [notice] 1#1: start worker process 31
+2022/07/11 08:04:47 [notice] 1#1: start worker process 32
+2022/07/11 08:04:47 [notice] 1#1: start worker process 33
+2022/07/11 08:04:47 [notice] 1#1: start worker process 34
+2022/07/11 08:33:34 [warn] 31#31: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/11 08:33:34 [warn] 31#31: *15 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 08:41:38 [warn] 31#31: *18 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 08:43:45 [warn] 32#32: *22 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 11:34:12 [warn] 31#31: *203 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/usuario HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 11:43:30 [warn] 32#32: *216 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 11:48:20 [warn] 31#31: *225 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 11:54:46 [warn] 31#31: *243 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 13:44:59 [warn] 31#31: *272 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "localhost"
+2022/07/11 15:29:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/11 15:29:45 [notice] 31#31: gracefully shutting down
+2022/07/11 15:29:45 [notice] 32#32: gracefully shutting down
+2022/07/11 15:29:45 [notice] 31#31: exiting
+2022/07/11 15:29:45 [notice] 34#34: gracefully shutting down
+2022/07/11 15:29:45 [notice] 32#32: exiting
+2022/07/11 15:29:45 [notice] 34#34: exiting
+2022/07/11 15:29:45 [notice] 31#31: exit
+2022/07/11 15:29:45 [notice] 32#32: exit
+2022/07/11 15:29:45 [notice] 34#34: exit
+2022/07/11 15:29:45 [notice] 33#33: gracefully shutting down
+2022/07/11 15:29:45 [notice] 33#33: exiting
+2022/07/11 15:29:45 [notice] 33#33: exit
+2022/07/11 15:29:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/11 15:29:45 [notice] 1#1: worker process 34 exited with code 0
+2022/07/11 15:29:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/11 15:29:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/11 15:29:45 [notice] 1#1: worker process 32 exited with code 0
+2022/07/11 15:29:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/11 15:29:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/11 15:29:45 [notice] 1#1: worker process 33 exited with code 0
+2022/07/11 15:29:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/11 15:29:45 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/11 15:29:45 [notice] 1#1: worker process 31 exited with code 0
+2022/07/11 15:29:45 [notice] 1#1: exit
+2022/07/12 07:56:51 [notice] 1#1: using the "epoll" event method
+2022/07/12 07:56:51 [notice] 1#1: nginx/1.20.0
+2022/07/12 07:56:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/12 07:56:51 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/12 07:56:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/12 07:56:51 [notice] 1#1: start worker processes
+2022/07/12 07:56:51 [notice] 1#1: start worker process 31
+2022/07/12 07:56:51 [notice] 1#1: start worker process 32
+2022/07/12 07:56:51 [notice] 1#1: start worker process 33
+2022/07/12 07:56:51 [notice] 1#1: start worker process 34
+2022/07/12 15:00:30 [notice] 1#1: using the "epoll" event method
+2022/07/12 15:00:30 [notice] 1#1: nginx/1.20.0
+2022/07/12 15:00:30 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/12 15:00:30 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/12 15:00:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/12 15:00:30 [notice] 1#1: start worker processes
+2022/07/12 15:00:30 [notice] 1#1: start worker process 32
+2022/07/12 15:00:30 [notice] 1#1: start worker process 33
+2022/07/12 15:00:30 [notice] 1#1: start worker process 34
+2022/07/12 15:00:30 [notice] 1#1: start worker process 35
+2022/07/12 15:32:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/12 15:32:46 [notice] 32#32: gracefully shutting down
+2022/07/12 15:32:46 [notice] 35#35: gracefully shutting down
+2022/07/12 15:32:46 [notice] 32#32: exiting
+2022/07/12 15:32:46 [notice] 35#35: exiting
+2022/07/12 15:32:46 [notice] 35#35: exit
+2022/07/12 15:32:46 [notice] 32#32: exit
+2022/07/12 15:32:46 [notice] 33#33: gracefully shutting down
+2022/07/12 15:32:46 [notice] 34#34: gracefully shutting down
+2022/07/12 15:32:46 [notice] 33#33: exiting
+2022/07/12 15:32:46 [notice] 34#34: exiting
+2022/07/12 15:32:46 [notice] 33#33: exit
+2022/07/12 15:32:46 [notice] 34#34: exit
+2022/07/12 15:32:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/12 15:32:46 [notice] 1#1: worker process 32 exited with code 0
+2022/07/12 15:32:46 [notice] 1#1: worker process 34 exited with code 0
+2022/07/12 15:32:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/12 15:32:46 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/12 15:32:46 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/07/12 15:32:46 [notice] 1#1: worker process 35 exited with code 0
+2022/07/12 15:32:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/12 15:32:46 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/12 15:32:46 [notice] 1#1: worker process 33 exited with code 0
+2022/07/12 15:32:46 [notice] 1#1: exit
+2022/07/13 08:02:28 [notice] 1#1: using the "epoll" event method
+2022/07/13 08:02:28 [notice] 1#1: nginx/1.20.0
+2022/07/13 08:02:28 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/13 08:02:28 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/13 08:02:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/13 08:02:28 [notice] 1#1: start worker processes
+2022/07/13 08:02:28 [notice] 1#1: start worker process 31
+2022/07/13 08:02:28 [notice] 1#1: start worker process 32
+2022/07/13 08:02:28 [notice] 1#1: start worker process 33
+2022/07/13 08:02:28 [notice] 1#1: start worker process 34
+2022/07/13 15:44:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/13 15:44:55 [notice] 31#31: gracefully shutting down
+2022/07/13 15:44:55 [notice] 31#31: exiting
+2022/07/13 15:44:55 [notice] 31#31: exit
+2022/07/13 15:44:55 [notice] 33#33: gracefully shutting down
+2022/07/13 15:44:55 [notice] 33#33: exiting
+2022/07/13 15:44:55 [notice] 33#33: exit
+2022/07/13 15:44:55 [notice] 32#32: gracefully shutting down
+2022/07/13 15:44:55 [notice] 32#32: exiting
+2022/07/13 15:44:55 [notice] 32#32: exit
+2022/07/13 15:44:55 [notice] 34#34: gracefully shutting down
+2022/07/13 15:44:55 [notice] 34#34: exiting
+2022/07/13 15:44:55 [notice] 34#34: exit
+2022/07/13 15:44:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/13 15:44:55 [notice] 1#1: worker process 31 exited with code 0
+2022/07/13 15:44:55 [notice] 1#1: worker process 33 exited with code 0
+2022/07/13 15:44:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/13 15:44:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/13 15:44:55 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/07/13 15:44:55 [notice] 1#1: worker process 34 exited with code 0
+2022/07/13 15:44:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/13 15:44:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/13 15:44:55 [notice] 1#1: worker process 32 exited with code 0
+2022/07/13 15:44:55 [notice] 1#1: exit
+2022/07/14 08:03:11 [notice] 1#1: using the "epoll" event method
+2022/07/14 08:03:11 [notice] 1#1: nginx/1.20.0
+2022/07/14 08:03:11 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/14 08:03:11 [notice] 1#1: OS: Linux 5.13.0-52-generic
+2022/07/14 08:03:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/14 08:03:11 [notice] 1#1: start worker processes
+2022/07/14 08:03:11 [notice] 1#1: start worker process 30
+2022/07/14 08:03:11 [notice] 1#1: start worker process 31
+2022/07/14 08:03:11 [notice] 1#1: start worker process 32
+2022/07/14 08:03:11 [notice] 1#1: start worker process 33
+2022/07/14 11:38:37 [warn] 30#30: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:38:18 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:38:28 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:38:55 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:39:10 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:39:18 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:04 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:09 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:18 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:28 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:37 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:40:40 [warn] 31#31: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:41:54 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:42:09 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:42:22 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:43:09 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:43:09 [warn] 30#30: *58 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/14 13:43:21 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:43:36 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:43:44 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:43:53 [warn] 30#30: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:46:40 [warn] 30#30: *68 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:50:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/14 13:50:13 [notice] 31#31: gracefully shutting down
+2022/07/14 13:50:13 [notice] 32#32: gracefully shutting down
+2022/07/14 13:50:13 [notice] 31#31: exiting
+2022/07/14 13:50:13 [notice] 32#32: exiting
+2022/07/14 13:50:13 [notice] 32#32: exit
+2022/07/14 13:50:13 [notice] 31#31: exit
+2022/07/14 13:50:13 [notice] 33#33: gracefully shutting down
+2022/07/14 13:50:13 [notice] 33#33: exiting
+2022/07/14 13:50:13 [notice] 30#30: gracefully shutting down
+2022/07/14 13:50:13 [notice] 30#30: exiting
+2022/07/14 13:50:13 [notice] 33#33: exit
+2022/07/14 13:50:13 [notice] 30#30: exit
+2022/07/14 13:50:13 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/14 13:50:13 [notice] 1#1: worker process 33 exited with code 0
+2022/07/14 13:50:13 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/14 13:50:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/14 13:50:13 [notice] 1#1: worker process 31 exited with code 0
+2022/07/14 13:50:13 [notice] 1#1: worker process 32 exited with code 0
+2022/07/14 13:50:13 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/14 13:50:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/14 13:50:13 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/07/14 13:50:13 [notice] 1#1: worker process 30 exited with code 0
+2022/07/14 13:50:13 [notice] 1#1: exit
+2022/07/14 13:51:08 [notice] 1#1: using the "epoll" event method
+2022/07/14 13:51:08 [notice] 1#1: nginx/1.20.0
+2022/07/14 13:51:08 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/14 13:51:08 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/14 13:51:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/14 13:51:08 [notice] 1#1: start worker processes
+2022/07/14 13:51:08 [notice] 1#1: start worker process 30
+2022/07/14 13:51:08 [notice] 1#1: start worker process 31
+2022/07/14 13:51:08 [notice] 1#1: start worker process 32
+2022/07/14 13:51:08 [notice] 1#1: start worker process 33
+2022/07/14 13:56:45 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:56:46 [warn] 30#30: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/14 13:57:34 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:58:16 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 13:59:47 [warn] 30#30: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 14:00:25 [warn] 30#30: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 14:09:16 [error] 30#30: *11 client intended to send too large body: 2221354 bytes, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 14:09:59 [warn] 31#31: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 14:10:13 [warn] 31#31: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 14:10:24 [warn] 31#31: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:14:42 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:15:13 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:15:21 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:15:52 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:16:02 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:16:09 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:16:23 [warn] 30#30: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.22.0.1, server: mapa.karina.test, request: "POST /api/confirm HTTP/1.1", host: "localhost"
+2022/07/14 15:17:54 [warn] 30#30: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/montagem HTTP/1.1", host: "localhost"
+2022/07/14 15:18:04 [warn] 30#30: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo-montagem HTTP/1.1", host: "localhost"
+2022/07/14 15:18:09 [warn] 30#30: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/14 15:18:53 [warn] 30#30: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/14 15:19:15 [warn] 30#30: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/14 15:30:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/07/14 15:30:40 [notice] 30#30: gracefully shutting down
+2022/07/14 15:30:40 [notice] 32#32: gracefully shutting down
+2022/07/14 15:30:40 [notice] 30#30: exiting
+2022/07/14 15:30:40 [notice] 32#32: exiting
+2022/07/14 15:30:40 [notice] 30#30: exit
+2022/07/14 15:30:40 [notice] 32#32: exit
+2022/07/14 15:30:40 [notice] 33#33: gracefully shutting down
+2022/07/14 15:30:40 [notice] 33#33: exiting
+2022/07/14 15:30:40 [notice] 33#33: exit
+2022/07/14 15:30:40 [notice] 31#31: gracefully shutting down
+2022/07/14 15:30:40 [notice] 31#31: exiting
+2022/07/14 15:30:40 [notice] 31#31: exit
+2022/07/14 15:30:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/07/14 15:30:40 [notice] 1#1: worker process 33 exited with code 0
+2022/07/14 15:30:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/14 15:30:40 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/07/14 15:30:40 [notice] 1#1: worker process 32 exited with code 0
+2022/07/14 15:30:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/14 15:30:40 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/07/14 15:30:40 [notice] 1#1: worker process 31 exited with code 0
+2022/07/14 15:30:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/07/14 15:30:40 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/07/14 15:30:40 [notice] 1#1: worker process 30 exited with code 0
+2022/07/14 15:30:40 [notice] 1#1: exit
+2022/07/15 07:58:55 [notice] 1#1: using the "epoll" event method
+2022/07/15 07:58:55 [notice] 1#1: nginx/1.20.0
+2022/07/15 07:58:55 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/07/15 07:58:55 [notice] 1#1: OS: Linux 5.15.0-41-generic
+2022/07/15 07:58:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/15 07:58:55 [notice] 1#1: start worker processes
+2022/07/15 07:58:55 [notice] 1#1: start worker process 30
+2022/07/15 07:58:55 [notice] 1#1: start worker process 31
+2022/07/15 07:58:55 [notice] 1#1: start worker process 32
+2022/07/15 07:58:55 [notice] 1#1: start worker process 33
+2022/07/15 08:14:20 [warn] 30#30: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/confirm HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 08:16:39 [warn] 30#30: *6 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 08:20:10 [warn] 30#30: *11 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 08:27:37 [warn] 32#32: *17 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:29:32 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:29:40 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:29:49 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:30:03 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:30:36 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:30:44 [warn] 30#30: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:32:30 [warn] 30#30: *28 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:32:50 [warn] 30#30: *28 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:34:06 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:34:09 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:34:22 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:34:34 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:35:05 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:35:11 [warn] 30#30: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:36:35 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:36:39 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:36:47 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:37:11 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:37:16 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:37:16 [warn] 30#30: *40 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/02/0000000024 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 08:37:50 [warn] 30#30: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo/montagem HTTP/1.1", host: "localhost"
+2022/07/15 08:53:35 [warn] 30#30: *47 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/02/0000000026 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 08:54:33 [warn] 30#30: *47 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/02/0000000027 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 09:00:22 [warn] 30#30: *55 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/02/0000000028 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/07/15 09:01:30 [warn] 30#30: *55 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/02/0000000029 while reading upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/download HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2022/08/03 11:43:20 [notice] 1#1: using the "epoll" event method
+2022/08/03 11:43:20 [notice] 1#1: nginx/1.20.0
+2022/08/03 11:43:20 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/08/03 11:43:20 [notice] 1#1: OS: Linux 5.15.0-43-generic
+2022/08/03 11:43:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/03 11:43:20 [notice] 1#1: start worker processes
+2022/08/03 11:43:20 [notice] 1#1: start worker process 30
+2022/08/03 11:43:20 [notice] 1#1: start worker process 31
+2022/08/03 11:43:20 [notice] 1#1: start worker process 32
+2022/08/03 11:43:20 [notice] 1#1: start worker process 33
+2022/08/03 12:20:37 [error] 33#33: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "PUT /api/fluxo/12 HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:08 [error] 33#33: *49 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:11 [error] 33#33: *49 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:11 [error] 33#33: *49 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:32 [error] 33#33: *49 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:45 [error] 33#33: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:22:45 [error] 33#33: *61 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:23:51 [error] 33#33: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:23:51 [error] 33#33: *53 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:26:07 [error] 33#33: *139 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:26:07 [error] 33#33: *139 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:29:02 [error] 33#33: *196 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:29:02 [error] 33#33: *196 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo? HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost", referrer: "http://localhost:8080/"
+2022/08/03 12:29:10 [error] 33#33: *215 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait "Spatie\Activitylog\Traits\LogsActivity" not found in /var/www/html/domain/Base/CRMModel.php on line 9" while reading response header from upstream, client: 172.22.0.1, server: mapa.karina.test, request: "GET /api/fluxo HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "localhost"
+2022/08/03 12:32:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/03 12:32:16 [notice] 32#32: gracefully shutting down
+2022/08/03 12:32:16 [notice] 32#32: exiting
+2022/08/03 12:32:16 [notice] 30#30: gracefully shutting down
+2022/08/03 12:32:16 [notice] 30#30: exiting
+2022/08/03 12:32:16 [notice] 32#32: exit
+2022/08/03 12:32:16 [notice] 30#30: exit
+2022/08/03 12:32:16 [notice] 31#31: gracefully shutting down
+2022/08/03 12:32:16 [notice] 31#31: exiting
+2022/08/03 12:32:16 [notice] 33#33: gracefully shutting down
+2022/08/03 12:32:16 [notice] 33#33: exiting
+2022/08/03 12:32:16 [notice] 33#33: exit
+2022/08/03 12:32:16 [notice] 31#31: exit
+2022/08/03 12:32:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/08/03 12:32:16 [notice] 1#1: worker process 30 exited with code 0
+2022/08/03 12:32:16 [notice] 1#1: worker process 32 exited with code 0
+2022/08/03 12:32:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/03 12:32:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/03 12:32:16 [notice] 1#1: worker process 31 exited with code 0
+2022/08/03 12:32:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/03 12:32:16 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/03 12:32:16 [notice] 1#1: worker process 33 exited with code 0
+2022/08/03 12:32:16 [notice] 1#1: exit
+2022/09/06 09:53:57 [notice] 1#1: using the "epoll" event method
+2022/09/06 09:53:57 [notice] 1#1: nginx/1.20.0
+2022/09/06 09:53:57 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/09/06 09:53:57 [notice] 1#1: OS: Linux 5.15.0-47-generic
+2022/09/06 09:53:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/06 09:53:57 [notice] 1#1: start worker processes
+2022/09/06 09:53:57 [notice] 1#1: start worker process 31
+2022/09/06 09:53:57 [notice] 1#1: start worker process 32
+2022/09/06 09:53:57 [notice] 1#1: start worker process 33
+2022/09/06 09:53:57 [notice] 1#1: start worker process 34
+2022/09/12 10:51:05 [notice] 1#1: using the "epoll" event method
+2022/09/12 10:51:05 [notice] 1#1: nginx/1.20.0
+2022/09/12 10:51:05 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/09/12 10:51:05 [notice] 1#1: OS: Linux 5.15.0-47-generic
+2022/09/12 10:51:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/12 10:51:05 [notice] 1#1: start worker processes
+2022/09/12 10:51:05 [notice] 1#1: start worker process 30
+2022/09/12 10:51:05 [notice] 1#1: start worker process 31
+2022/09/12 10:51:05 [notice] 1#1: start worker process 32
+2022/09/12 10:51:05 [notice] 1#1: start worker process 33
+2022/09/12 12:58:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/12 12:58:16 [notice] 32#32: gracefully shutting down
+2022/09/12 12:58:16 [notice] 32#32: exiting
+2022/09/12 12:58:16 [notice] 32#32: exit
+2022/09/12 12:58:16 [notice] 33#33: gracefully shutting down
+2022/09/12 12:58:16 [notice] 33#33: exiting
+2022/09/12 12:58:16 [notice] 33#33: exit
+2022/09/12 12:58:16 [notice] 31#31: gracefully shutting down
+2022/09/12 12:58:16 [notice] 31#31: exiting
+2022/09/12 12:58:16 [notice] 31#31: exit
+2022/09/12 12:58:16 [notice] 30#30: gracefully shutting down
+2022/09/12 12:58:16 [notice] 30#30: exiting
+2022/09/12 12:58:16 [notice] 30#30: exit
+2022/09/12 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/12 12:58:16 [notice] 1#1: worker process 33 exited with code 0
+2022/09/12 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/12 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/12 12:58:16 [notice] 1#1: worker process 32 exited with code 0
+2022/09/12 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/12 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/12 12:58:16 [notice] 1#1: worker process 31 exited with code 0
+2022/09/12 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/12 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/12 12:58:16 [notice] 1#1: worker process 30 exited with code 0
+2022/09/12 12:58:16 [notice] 1#1: exit
+2022/09/13 08:00:43 [notice] 1#1: using the "epoll" event method
+2022/09/13 08:00:43 [notice] 1#1: nginx/1.20.0
+2022/09/13 08:00:43 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/09/13 08:00:43 [notice] 1#1: OS: Linux 5.15.0-47-generic
+2022/09/13 08:00:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/13 08:00:43 [notice] 1#1: start worker processes
+2022/09/13 08:00:43 [notice] 1#1: start worker process 30
+2022/09/13 08:00:43 [notice] 1#1: start worker process 31
+2022/09/13 08:00:43 [notice] 1#1: start worker process 32
+2022/09/13 08:00:43 [notice] 1#1: start worker process 33
+2022/09/26 10:03:47 [notice] 1#1: using the "epoll" event method
+2022/09/26 10:03:47 [notice] 1#1: nginx/1.20.0
+2022/09/26 10:03:47 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/09/26 10:03:47 [notice] 1#1: OS: Linux 5.15.0-48-generic
+2022/09/26 10:03:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 10:03:47 [notice] 1#1: start worker processes
+2022/09/26 10:03:47 [notice] 1#1: start worker process 30
+2022/09/26 10:03:47 [notice] 1#1: start worker process 31
+2022/09/26 10:03:47 [notice] 1#1: start worker process 32
+2022/09/26 10:03:47 [notice] 1#1: start worker process 33
+2022/09/26 10:06:04 [notice] 1#1: using the "epoll" event method
+2022/09/26 10:06:04 [notice] 1#1: nginx/1.20.0
+2022/09/26 10:06:04 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/09/26 10:06:04 [notice] 1#1: OS: Linux 5.15.0-48-generic
+2022/09/26 10:06:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 10:06:04 [notice] 1#1: start worker processes
+2022/09/26 10:06:04 [notice] 1#1: start worker process 31
+2022/09/26 10:06:04 [notice] 1#1: start worker process 32
+2022/09/26 10:06:04 [notice] 1#1: start worker process 33
+2022/09/26 10:06:04 [notice] 1#1: start worker process 34
+2022/09/26 10:37:46 [warn] 31#31: *37 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/"
+2022/09/26 10:45:00 [warn] 31#31: *71 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/sendBacancyMail"
+2022/09/26 10:45:05 [warn] 31#31: *71 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/sendBacancyMail"
+2022/09/26 10:45:15 [warn] 31#31: *71 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/"
+2022/09/26 13:49:35 [warn] 31#31: *193 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/"
+2022/09/26 13:52:01 [warn] 31#31: *197 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "GET /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/sendBacancyMail"
+2022/09/26 13:53:13 [warn] 31#31: *197 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/"
+2022/09/26 13:54:31 [warn] 31#31: *203 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "POST /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/sendBacancyMail"
+2022/09/26 13:55:22 [warn] 31#31: *203 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.26.0.1, server: mapa.karina.test, request: "GET /sendBacancyMail HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost", referrer: "http://localhost/sendBacancyMail"
